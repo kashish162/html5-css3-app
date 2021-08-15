@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Descendant selector</title>
+    <style>
+        div p{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container" id="divMessage"></div> -->
+<!--     
+   table >(thead>th>th*4)+tbody>td*4
+    table>tr>td*3 -->
+    <!-- table>thead+tbody -->
+    <!-- <table>
+        <thead></thead>
+        <tbody></tbody>
+    </table> -->
+    <div>
+        <p>Paragraph 1 in the div</p>
+        <p>Paragraph 2 in the div</p>
+        <Section>
+            <P>paragraph 3 in div</P>
+        </Section>
+    </div>
+    <p>Paragraph 4 not in the div</p>
+    <p>Paragraph5 not in the div</p>
+
+</body>
+</html>
